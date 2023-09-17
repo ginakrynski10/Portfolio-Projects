@@ -331,7 +331,7 @@ CREATE PROCEDURE spAddExercise
     @exerciseDescription    VARCHAR(50), 
     @exerciseVideoLink      VARCHAR(100) 
 AS BEGIN 
-    IF NOT EXISTS(SELECT NULL FROM Users WHERE userId = @userId ) BEGIN --Checks if userId exists. There might be other conditions to meet but I'm not sure rn.
+    IF NOT EXISTS(SELECT NULL FROM Users WHERE userId = @userId ) BEGIN --Checks if userId exists. 
         SELECT  [message] = 'User does not exist',
                 [success] = CAST(0 AS BIT),
                 [errorCode] = 1
