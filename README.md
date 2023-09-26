@@ -16,8 +16,8 @@
 ### Disney Movie Analysis
 **Code**: [FinalMovieAnalysis.ipynb](FinalMovieAnalysis.ipynb) \
 **Description**: I created FinalMovieAnalysis.ipynb as my contribution to a group project. Other analyses were performed by other members of my group. We then synthesized our analyses into a written report that we presented to our class.\
-\ The first part of this analysis uses data about Disney movies from IMDB. Data cleaning was performed before beginning the exploratory data analysis. The EDA was used to identify films of interest for a report that looked into why Disney chose to remake certain movies over others, such as their many live action remakes of popular animated movies.\
-\ The second part of this analysis uses data scraped from Reddit forums where several of the movies mentioned in the report are discussed by Reddit users. Then,  a sentiment analyzer function was created using the TFIDVectorizer function from the sklearn package to measure the amount of positive vs negative words from each data entry. The sentiment analyzer function is used to calculate the percentage of positive comments for each movie discussed in the report\
+The first part of this analysis uses data about Disney movies from IMDB. Data cleaning was performed before beginning the exploratory data analysis. The EDA was used to identify films of interest for a report that looked into why Disney chose to remake certain movies over others, such as their many live action remakes of popular animated movies.\
+The second part of this analysis uses data scraped from Reddit forums where several of the movies mentioned in the report are discussed by Reddit users. Then,  a sentiment analyzer function was created using the TFIDVectorizer function from the sklearn package to measure the amount of positive vs negative words from each data entry. The sentiment analyzer function is used to calculate the percentage of positive comments for each movie discussed in the report\
 **Libraries used**: pandas, numpy, pylab, seaborn, matplotlib.pyplot, statistics, requests, sklearn
 ### Football Web Scraping
 **Code**:[FootballWebScraping.ipynb](FootballWebScraping.ipynb) \
