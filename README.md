@@ -1,9 +1,10 @@
 # Analytics Portfolio Project Descriptions
 ## SQL Projects
 ### Recipe Sharing Database
-**Code**: [RecipeSharing.sql](RecipeSharing.sql) \
+**Code**: [RecipeSharing.sql](RecipeSharing.sql) 
 &nbsp;  
-**Description**: The Recipe Sharing database is designed to be the back-end of a recipe sharing web application. I practiced creating entity relationship diagrams (ERDs), working with tables, joins, views, and mock data. I created various stored procedures to perform common functions such as user login, change password, and add/update/delete procedures for each table.\
+**Description**: The Recipe Sharing database is designed to be the back-end of a recipe sharing web application. I practiced creating entity relationship diagrams (ERDs), working with tables, joins, views, and mock data. I created various stored procedures to perform common functions such as user login, change password, and add/update/delete procedures for each table.
+&nbsp;  
 **Technology**: SQL Server
 ### Weight Training Database
 **Code**:[WeightTraining.sql](WeightTraining.sql) \
