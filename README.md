@@ -1,7 +1,6 @@
-# Gina Krynski - Data Analyst Portfolio
-## Project Descriptions
-### SQL Projects
-#### Recipe Sharing Database
+# Analytics Portfolio Project Descriptions
+## SQL Projects
+### Recipe Sharing Database
 **Code**: [RecipeSharing.sql](RecipeSharing.sql) \
 **Description**: The Recipe Sharing database is designed to be the back-end of a recipe sharing web application. I practiced creating entity relationship diagrams (ERDs), working with tables, joins, views, and mock data. I created various stored procedures to perform common functions such as user login, change password, and add/update/delete procedures for each table.\
 **Technology**: SQL Server
