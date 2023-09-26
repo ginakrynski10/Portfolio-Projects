@@ -12,7 +12,7 @@
 **Technology**: SQL Server
 
 #### SQL Query Practice
-**Code**: [PropertyQueries.sql](PropertyQueries.sql)  \ 
+**Code**: [PropertyQueries.sql](PropertyQueries.sql) \  
 **Description**: This file contains several queries created to practice querying from a Propterty database. The database contains tables such as Owner, PropertyOwners, Property, PropertyRental, RentalData, and RentalPayment.\
 **Technology**: SQL Server
 
