@@ -24,7 +24,10 @@
 \ The second part of this analysis uses data scraped from Reddit forums where several of the movies mentioned in the report are discussed by Reddit users. Then,  a sentiment analyzer function was created using the TFIDVectorizer function from the sklearn package to measure the amount of positive vs negative words from each data entry. The sentiment analyzer function is used to calculate the percentage of positive comments for each movie discussed in the report\
 **Libraries used**: pandas, numpy, pylab, seaborn, matplotlib.pyplot, statistics, requests, sklearn
 
-
+#### Football Web Scraping
+**Code**:[FootballWebScraping.ipynb](FootballWebScraping.ipynb) \
+**Description**: This project scrapes data from [this website](https://probabilityfootball.com/picks.html?1487349677&username=AVERAGES&weeknum=5), which includes information such as the home team, away team, winner, and the percentage of experts that predicted each team winning. The goal of this project was to determine if the experts prediction accuracy was equal to 50% or greater than 50% using a 1 sample t-test. I created a function to scrape the important data from the source html and reformat it into a cleaner looking table that could be used in the analysis. I first tested the function with a subset of data from week 1 of the 2008 NFL season. Then, I used a loop to apply the function to each week of the 2008 season. Finally, a 1 sample t-test was performed to answer the original question of the experts prediction accuracy.  \
+**Libraries Used**: requests, re, pandas, scipy\
 
 ### R Projects
 
