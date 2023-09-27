@@ -37,19 +37,18 @@ The second part of this analysis uses data scraped from Reddit forums where seve
 **Libraries Used**: requests, re, pandas, scipy\
 ## R Projects
 ### Crime Analysis
-**Code**: [CrimeAnalysis.R](CrimeAnalysis.R) 
-
-&nbsp;**Description**: This analysis was created for a report that investigated the impact of the COVID-19 pandemic on crime rates in the City of Chicago. The main dataset used for the analysis is the Crimes 2001-Present that can be found on the Chicago Data Portal Website. The final report including all plots created and finished analyses can be read by downloading [CrimeAnalysisFinalReport.docx](CrimeAnalysisFinalReport.docx) \
+**Code**: [CrimeAnalysis.R](CrimeAnalysis.R) \
 &nbsp;  
+**Description**: This analysis was created for a report that investigated the impact of the COVID-19 pandemic on crime rates in the City of Chicago. The main dataset used for the analysis is the Crimes 2001-Present that can be found on the Chicago Data Portal Website. The final report including all plots created and finished analyses can be read by downloading [CrimeAnalysisFinalReport.docx](CrimeAnalysisFinalReport.docx) \
+&nbsp;    
 **Libraries Used**: tidyverse, jsonlite, knitr, kableExtra, scales, maps, rgdal, maptools, ggthemes, broom, gridExtra
 ### Stellar Object Classification
 **Code**: [StellarObjectModeling.md](StellarObjectModeling.md) \
-&nbsp;
+&nbsp;  
 **Description**: The Sloan Digital Sky Survey is a project dedicated to creating detailed 3-dimensional maps of the Universe. Data collection began at the University of Chicago in 2000, and is still continued today. The dataset used for this report contains 100,000 observations from space, taken by the SDSS. The observations are classified as stars, galaxies, or quasars. This data set intrigued me because it gives insight into the process of how astronomers classify newly observed stellar objects. The spectral characteristics in the dataset that are used to classify objects were new to me and I enjoyed learning about which characteristics are more insightful than others. \
-&nbsp;
+&nbsp;  
 The written report, [StellarObjectsReport.pdf](StellarObjectsReport.pdf), includes all of the plots created using R, which were not able to be rendered by the markdown file on github. \
-&nbsp;
-&nbsp;
+&nbsp;  
 **Libraries Used**: tidyverse, caret, tree,randomForest,splines, MASS, gbm. kableExtra
 
 
