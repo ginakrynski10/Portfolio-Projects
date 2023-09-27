@@ -40,8 +40,7 @@ The second part of this analysis uses data scraped from Reddit forums where seve
 ### Crime Analysis
 **Code**: [CrimeAnalysis.R](CrimeAnalysis.R) 
 
-&nbsp;
-**Description**: This analysis was created for a report that investigated the impact of the COVID-19 pandemic on crime rates in the City of Chicago. The main dataset used for the analysis is the Crimes 2001-Present that can be found on the Chicago Data Portal Website. The final report including all plots created and finished analyses can be read by downloading [CrimeAnalysisFinalReport.docx](CrimeAnalysisFinalReport.docx) \
+&nbsp;**Description**: This analysis was created for a report that investigated the impact of the COVID-19 pandemic on crime rates in the City of Chicago. The main dataset used for the analysis is the Crimes 2001-Present that can be found on the Chicago Data Portal Website. The final report including all plots created and finished analyses can be read by downloading [CrimeAnalysisFinalReport.docx](CrimeAnalysisFinalReport.docx) \
 &nbsp;  
 **Libraries Used**: tidyverse, jsonlite, knitr, kableExtra, scales, maps, rgdal, maptools, ggthemes, broom, gridExtra
 
