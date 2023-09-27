@@ -44,9 +44,11 @@ The second part of this analysis uses data scraped from Reddit forums where seve
 **Libraries Used**: tidyverse, jsonlite, knitr, kableExtra, scales, maps, rgdal, maptools, ggthemes, broom, gridExtra
 ### Stellar Object Classification
 **Code**: [StellarObjectModeling.md](StellarObjectModeling.md) \
+&nbsp;
 **Description**: The Sloan Digital Sky Survey is a project dedicated to creating detailed 3-dimensional maps of the Universe. Data collection began at the University of Chicago in 2000, and is still continued today. The dataset used for this report contains 100,000 observations from space, taken by the SDSS. The observations are classified as stars, galaxies, or quasars. This data set intrigued me because it gives insight into the process of how astronomers classify newly observed stellar objects. The spectral characteristics in the dataset that are used to classify objects were new to me and I enjoyed learning about which characteristics are more insightful than others. \
 &nbsp;
 The written report, [StellarObjectsReport.pdf](StellarObjectsReport.pdf), includes all of the plots created using R, which were not able to be rendered by the markdown file on github. \
+&nbsp;
 &nbsp;
 **Libraries Used**: tidyverse, caret, tree,randomForest,splines, MASS, gbm. kableExtra
 
