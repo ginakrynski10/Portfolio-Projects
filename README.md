@@ -35,7 +35,6 @@ The second part of this analysis uses data scraped from Reddit forums where seve
 **Description**: This project scrapes data from [this website](https://probabilityfootball.com/picks.html?1487349677&username=AVERAGES&weeknum=5) about the 2008 NFL season, which includes information such as the home team, away team, winner, and the percentage of experts that predicted each team winning. The goal of this project was to determine if the experts prediction accuracy was equal to 50% or greater than 50% using a 1 sample t-test. I created a function to scrape the important data from the source html and reformat it into a cleaner looking table that could be used in the analysis. I first tested the function with a subset of data from week 1 of the 2008 NFL season. Then, I used a loop to apply the function to each week of the 2008 season. Finally, a 1 sample t-test was performed to answer the original question of the experts prediction accuracy. \
 &nbsp;  
 **Libraries Used**: requests, re, pandas, scipy\
-
 ## R Projects
 ### Crime Analysis
 **Code**: [CrimeAnalysis.R](CrimeAnalysis.R) 
@@ -43,7 +42,6 @@ The second part of this analysis uses data scraped from Reddit forums where seve
 &nbsp;**Description**: This analysis was created for a report that investigated the impact of the COVID-19 pandemic on crime rates in the City of Chicago. The main dataset used for the analysis is the Crimes 2001-Present that can be found on the Chicago Data Portal Website. The final report including all plots created and finished analyses can be read by downloading [CrimeAnalysisFinalReport.docx](CrimeAnalysisFinalReport.docx) \
 &nbsp;  
 **Libraries Used**: tidyverse, jsonlite, knitr, kableExtra, scales, maps, rgdal, maptools, ggthemes, broom, gridExtra
-
 ### Stellar Object Classification
 **Code**: [StellarObjectModeling.md](StellarObjectModeling.md) \
 **Description**: The Sloan Digital Sky Survey is a project dedicated to creating detailed 3-dimensional maps of the Universe. Data collection began at the University of Chicago in 2000, and is still continued today. The dataset used for this report contains 100,000 observations from space, taken by the SDSS. The observations are classified as stars, galaxies, or quasars. This data set intrigued me because it gives insight into the process of how astronomers classify newly observed stellar objects. The spectral characteristics in the dataset that are used to classify objects were new to me and I enjoyed learning about which characteristics are more insightful than others. \
